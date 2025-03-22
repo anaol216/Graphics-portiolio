@@ -1,10 +1,10 @@
 import React from 'react';
-
+import styles from './page.module.css';
 const Resume = () => {
   return (
     <div className="bg-black p-8 rounded-lg shadow-lg w-full max-w-[80%] mx-auto font-sans text-white"> 
       <div className="flex flex-col md:flex-row items-start justify-between">
-        <div className="md:w-[40%] mr-10"> {/* Wider left side */}
+        <div className="md:w-[50%] mr-10"> {/* Wider left side */}
           <img
             src="/path/to/your/image.jpg" // Replace with your image path
             alt="Anaol Atinafu"
@@ -13,55 +13,73 @@ const Resume = () => {
           <h2 className="text-4xl font-bold mb-2 text-[#FFD700]">Anaol Atinafu</h2> {/* Strong hexadecimal color */}
           <p className="text-gray-400 mb-4 ml-4 ">Graphics and UI/UX Designer</p>
 
-          <div className="mb-4 py-4 px-6 border-spacing-8 border-4 border-dashed border-gray-400"> {/* Increased border width */}
-            <h3 className="text-lg font-semibold mb-2 text-[#FFD700]">Education</h3> {/* Strong hexadecimal color */}
+          <div className="mb-4 py-4 px-6 tracking-wide border-spacing-8 border-2 border-dashed rounded-lg border-gray-400"  > {/* Increased border width */}
+            <h3 className="text-lg font-bold mb-2 rounded text-black bg-[#c60797] justify-self-center p-1">EDUCATION</h3> {/* Strong hexadecimal color */}
             <p className="text-sm">TOP TRAINING</p>
-            <p className="text-sm text-gray-400">UI/UX Design</p>
-            <p className="text-sm mt-2">2016-2021 Addis Ababa University</p>
-            <p className="text-sm text-gray-400">Fullstack Web Developer (Bac)</p>
-            <p className="text-sm mt-2">2012-2015 - HIGH SCHOOL</p>
+            <p className="text-sm text-gray-400">Graphics Design and UI/UX</p>
+            <p className="text-sm mt-2">2023-2026 Addis Ababa University</p>
+            <p className="text-sm text-gray-400">Information Science(Bch)</p>
+            <p className="text-sm mt-2">2019-2022 - HIGH SCHOOL</p>
             <p className="text-sm text-gray-400">Studied from grade 9 to 12</p>
           </div>
         </div>
 
-        <div className="md:w-[75%] ml-10"> {/* Wider right side */}
-          <p className="mb-4">
-            I am a creative and passionate graphic designer with expertise in UI/UX design and a strong background in educational and community-focused projects.
-          </p>
+        <div className="md:w-[80%] ml-8"> {/* Wider right side */}
+        <p className="mb-4 text-2xl">
+  I am a <span className="text-xl font-bold mb-3 text-[#c60797]">creative</span> and 
+  <span className="text-xl font-bold mb-3 text-[#e336d7]"> passionate</span> graphic 
+  <span className="text-xl font-bold mb-3 text-[#e3e036]"> designer</span> with expertise in 
+  <span className="text-xl font-bold mb-3 text-[#e3e036]"> UI/UX design</span> and a strong background in educational and community-focused projects.
+</p>
+          <div className="mb-4 py-4 px-6 tracking-wide border-spacing-8 border-2 border-dashed rounded-lg border-gray-400">
+  <h3 className="text-lg font-bold mb-2 rounded text-black bg-[#FFD700] justify-self-center p-1">Experience</h3>
+  <div className="mb-2">
+    <p className="font-semibold text-[#FFD700]">Palladium</p>
+    <p className="text-sm text-gray-400">Present - GRAPHICS DESIGN SERVICE PROVIDER</p>
+    <p className="text-sm text-gray-400">Provide graphic design services for ...</p>
+  </div>
+  <div className="mb-2">
+    <p className="font-semibold text-[#FFD700]">Whiz Kids Workshop</p>
+    <p className="text-sm text-gray-400">Present (Full Time) - GRAPHICS AND UI/UX DESIGNER</p>
+    <p className="text-sm text-gray-400">Add details about your role here.</p>
+  </div>
+  <div className="mb-2">
+    <p className="font-semibold text-[#FFD700]">Save the Children International</p>
+    <p className="text-sm text-gray-400">2021-2022 - EMERGENCY SHELTER + HH OFFICER</p>
+    <p className="text-sm text-gray-400">Construction comes supervising ...</p>
+  </div>
+  <div className="mb-2">
+    <p className="font-semibold text-[#FFD700]">The World Lutheran Federation</p>
+    <p className="text-sm text-gray-400">2019-2020 - COMMUNITY FACILITATOR</p>
+    <p className="text-sm text-gray-400">Implement communication and ...</p>
+  </div>
+</div>
+<div className="mb-4 py-4 px-6 tracking-wide border-spacing-8 border-2 border-dashed rounded-lg border-gray-400">
+  <h3 className="text-lg font-bold mb-2 rounded text-black bg-white justify-self-center py-1 px-4">My Skills</h3>
+  <ul className="list-disc list-inside">
+      <li className="relative overflow-hidden">
+        <span className="relative z-10">Graphics Design</span>
+        <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 opacity-70 blur-lg transform scale-110"></div>
+        <div className={`absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 opacity-30 ${styles.reflectiveEffect}`}></div>
+      </li>
+      <li className="relative overflow-hidden">
+        <span className="relative z-10">Branding</span>
+        <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-yellow-500 opacity-70 blur-lg transform scale-110"></div>
+        <div className={`absolute inset-0 bg-gradient-to-r from-pink-500 to-yellow-500 opacity-30 ${styles.reflectiveEffect}`}></div>
+      </li>
+      <li className="relative overflow-hidden">
+        <span className="relative z-10">Logo Design</span>
+        <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-teal-500 opacity-70 blur-lg transform scale-110"></div>
+        <div className={`absolute inset-0 bg-gradient-to-r from-green-500 to-teal-500 opacity-30 ${styles.reflectiveEffect}`}></div>
+      </li>
+      <li className="relative overflow-hidden">
+        <span className="relative z-10">UI/UX Design</span>
+        <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 opacity-70 blur-lg transform scale-110"></div>
+        <div className={`absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 opacity-30 ${styles.reflectiveEffect}`}></div>
+      </li>
+    </ul>
 
-          <div className="mb-4">
-            <h3 className="text-lg font-semibold mb-2 text-[#FFD700]">Experience</h3> {/* Strong hexadecimal color */}
-            <div className="mb-2">
-              <p className="font-semibold text-[#FFD700]">Palladium</p> {/* Strong hexadecimal color */}
-              <p className="text-sm text-gray-400">Present - GRAPHICS DESIGN SERVICE PROVIDER</p>
-              <p className="text-sm text-gray-400">Provide graphic design services for ...</p>
-            </div>
-            <div className="mb-2">
-              <p className="font-semibold text-[#FFD700]">Whiz Kids Workshop</p> {/* Strong hexadecimal color */}
-              <p className="text-sm text-gray-400">Present (Full Time) - GRAPHICS AND UI/UX DESIGNER</p>
-              <p className="text-sm text-gray-400">Add details about your role here.</p>
-            </div>
-            <div className="mb-2">
-              <p className="font-semibold text-[#FFD700]">Save the Children International</p> {/* Strong hexadecimal color */}
-              <p className="text-sm text-gray-400">2021-2022 - EMERGENCY SHELTER + HH OFFICER</p>
-              <p className="text-sm text-gray-400">Construction comes supervising ...</p>
-            </div>
-            <div className="mb-2">
-              <p className="font-semibold text-[#FFD700]">The World Lutheran Federation</p> {/* Strong hexadecimal color */}
-              <p className="text-sm text-gray-400">2019-2020 - COMMUNITY FACILITATOR</p>
-              <p className="text-sm text-gray-400">Implement communication and ...</p>
-            </div>
-          </div>
-
-          <div className="mb-4">
-            <h3 className="text-lg font-semibold mb-2 text-[#FFD700]">My Skills</h3> {/* Strong hexadecimal color */}
-            <ul className="list-disc list-inside">
-              <li>Graphics Design</li>
-              <li>Branding</li>
-              <li>Logo Design</li>
-              <li>UI/UX Design</li>
-            </ul>
-          </div>
+</div>
 
           <div className="mb-4">
             <h3 className="text-lg font-semibold mb-2 text-[#FFD700]">Software</h3> {/* Strong hexadecimal color */}
