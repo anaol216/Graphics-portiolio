@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Distributes items evenly */
+    align-items: center; /* Vertically aligns items in the center */
+    padding: 1rem 2rem; /* Add padding for spacing */
+    /* background-color: #333; Example background color */
+    color: white; /* Example text color */
+  }
+  
+  .logo a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav {
+    /* No specific styles needed for nav itself, but you can add some */
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    margin-left: 1rem; /* Spacing between nav items */
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+  }
+  
+  .social {
+    display: flex;
+  }
+  
+  .socialIcon {
+    color: white;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
