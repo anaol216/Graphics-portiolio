@@ -183,7 +183,7 @@ const Resume: React.FC = () => {
             <Image src={middlebg} alt="middlebg.jpg" />
           </div>
 
-          <div className="hidden md:block mb-6 py-4 px-4 tracking-wide border-spacing-8 border-2 border-dashed rounded-lg border-gray-400 mt-6 mb-10">
+          <div className="hidden md:block  py-4 px-4 tracking-wide border-spacing-8 border-2 border-dashed rounded-lg border-gray-400 mt-6 mb-10">
             <h3 className="text-lg font-bold mb-2 rounded text-[#c9c8c9]  bg-transparent justify-self-center p-1">EDUCATION-MOBILE</h3>
             <p className="text-sm">TOP TRAINING</p>
             <p className="text-sm text-gray-400">Graphics Design and UI/UX</p>
