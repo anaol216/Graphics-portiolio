@@ -5,12 +5,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --background-image: url('/infinity.jpg'); /* Default: no background image */
+  --nav-link-color: #ededed; /* Color for links on dark nav background */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --background-image: none; /* Default: no background image */
+    --nav-link-color: #ededed;
   }
 }
 
@@ -18,4 +22,29 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  background-image: var(--background-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Example: Add a background image for light mode */
+body[data-theme="light"] {
+  --background-image: url('/infinity.jpg'); /* Corrected path */
+  --nav-link-color: #ededed;
+}
+
+body[data-theme="dark"] {
+  --background-image: url('/infinity.jpg'); /* Corrected path, or use a different image */
+  --nav-link-color: #ededed;
+}
+
+/* Style for mobile navigation links when menu is open */
+nav.flex.flex-col.absolute.top-full.left-0.w-full.bg-black.p-4 a {
+  color: var(--nav-link-color); /* Apply the defined link color */
+}
+
+/* if you want to apply a different color for the light mode nav bar, you can use this */
+body[data-theme="light"] nav.flex.flex-col.absolute.top-full.left-0.w-full.bg-black.p-4 a {
+    color: white;
 }
