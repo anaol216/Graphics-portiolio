@@ -1,5 +1,5 @@
 
-# 🎨 Graphics Portfolio 🚀
+# 🎨 Graphics Portfolio 
 
 This project is a personal graphics portfolio website, built with Next.js and Tailwind CSS. It showcases my skills, experience, and projects in graphics and UI/UX design.
 
