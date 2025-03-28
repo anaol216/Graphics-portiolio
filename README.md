@@ -50,3 +50,13 @@ This project is a personal graphics portfolio website, built with Next.js and Ta
 
 ## 📂 Project Structure
 >>>>>>> 830220d6ee09c9fc198a86543daa329ae5840fa2
+
+1/ clone the repository
+2/ install dependencies
+3/ create a new branch from the main or another  branch
+4/ make changes
+5/ push the changes to the remote repository
+6/ create a pull request
+7/ merge the pull request
+8/ pull the merged changes to the local main branch
+9/ repeat from the step 3/4 as needed
