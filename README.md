@@ -60,3 +60,5 @@ This project is a personal graphics portfolio website, built with Next.js and Ta
 7/ merge the pull request
 8/ pull the merged changes to the local main branch
 9/ repeat from the step 3/4 as needed
+
+To check how the merge conflict works from  merge-conflict branch 
