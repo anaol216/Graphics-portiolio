@@ -19,37 +19,32 @@ This project is a personal graphics portfolio website, built with Next.js and Ta
 * **💨 Tailwind CSS:** Utility-first CSS framework for rapid UI development.
 * **⚛️ React Icons:** Library for using popular icon sets.
 * **📧 EmailJS:** Service for sending emails directly from the client-side.
-* **<0xF0><0x9F><0x93><0x82> Git:** Version control system.
+* **Git:** Version control system.
 
 ## 🚀 Getting Started
 
-1.  **<0xF0><0x9F><0x97><0x84> Clone the Repository:**
+1.  ** Clone the Repository:**
 
     ```bash
-    git clone [repository URL]
-    cd [project directory]
+    git clone https://github.com/anaol216/Graphics-portiolio.git
+    cd Graphics-portiolio
     ```
 
 2.  **📦 Install Dependencies:**
 
     ```bash
     npm install
-    # or
-    yarn install
     ```
 
 3.  **▶️ Run the Development Server:**
 
     ```bash
     npm run dev
-    # or
-    yarn dev
     ```
 
     Open your browser and navigate to `http://localhost:3000` to view the website.
 
 ## 📂 Project Structure
->>>>>>> 830220d6ee09c9fc198a86543daa329ae5840fa2
 
 1/ clone the repository
 2/ install dependencies
