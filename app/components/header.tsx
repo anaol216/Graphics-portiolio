@@ -113,7 +113,7 @@ const Header = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://twitter.com/anaol216"
+            href="https://x.com/anaol216"
             className="text-xl transition-transform duration-200 hover:scale-125 hover:text-[#e336d7]/70"
             aria-label="Twitter"
             target="_blank"
@@ -203,13 +203,31 @@ const Header = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://twitter.com/yourusername"
+          href="https://x.com/anaol216"
           className="text-xl mb-8 transition-transform duration-200 hover:scale-125 hover:text-[#e336d7]/70"
           aria-label="Twitter"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaTwitter />
+          {/* X logo SVG */}
+         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0,0,256,256">
+          <defs>
+            <linearGradient x1="4.338" y1="-10.056" x2="38.984" y2="49.954" gradientUnits="userSpaceOnUse" id="color-1_yoQabS8l0qpr_gr1">
+              <stop offset="0" stopColor="#ffffff"></stop>
+              <stop offset="0.247" stopColor="#3e3e3e"></stop>
+              <stop offset="0.686" stopColor="#2b2b2b"></stop>
+              <stop offset="1" stopColor="#252525"></stop>
+            </linearGradient>
+          </defs>
+          <g fill="none" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" strokeDasharray="" strokeDashoffset="0" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none" style={{mixBlendMode: "normal"}}>
+            <g transform="scale(5.33333,5.33333)">
+              <path d="M38,42h-28c-2.209,0 -4,-1.791 -4,-4v-28c0,-2.209 1.791,-4 4,-4h28c2.209,0 4,1.791 4,4v28c0,2.209 -1.791,4 -4,4z" fill="url(#color-1_yoQabS8l0qpr_gr1)"></path>
+              <path d="M34.257,34h-6.437l-13.991,-20h6.437zM28.587,32.304h2.563l-11.651,-16.608h-2.563z" fill="#ffffff"></path>
+              <path d="M15.866,34l7.203,-8.344l-0.942,-1.249l-8.304,9.593z" fill="#ffffff"></path>
+              <path d="M24.45,21.721l0.905,1.289l7.781,-9.01h-2z" fill="#ffffff"></path>
+            </g>
+          </g>
+          </svg>
         </a>
       </div>
     </header>
